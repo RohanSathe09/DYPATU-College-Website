@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/DYPATU-Logo.svg"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </section>
+    <!-- adout us content -->
+
+    <section class="top-about-us">
+        <div>
+            <h1>About Us</h1>
+        </div>
+    </section>
+    <section class="About-us">
+        <div class="row">
+            <div class="About-col">
+                <h1> We Are The World's Largest university</h1>
+                <p>Multiple tracks like Fintech, Marketing Analytics and Supply Chain Management are offered addressing
+                    to the current and future needs of the industry. Student can register for any one track, in
+                    consultation with faculty advisors in the second year of the program.
+                    Regional and International Immersion Program (Regional & International Study Tour)
+                    Industry Visits
+                    Data Science skills
+                    Life Coping Skills
+                    Certification Programs Focused on Employability Enhancement
+                    Focus on Project based Training
+                    Foreign Language Training
+                    Dissertation / Industry Immersion Program <br>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </p>
+                
+            </div>
+            <div class="About-col about-col-img">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <hr>
+        <section class="Footer">
+            <h2>How To Apply</h2>
+            <h> Apply processing</h>
+               <p> STEP 1: Check The Eligibility<br>
+                
+                The eligibility for each of the program offered by the University is different and is based on the program curriculum. Before applying, please Click Here to check the eligibility for that program.<br>
+                
+                STEP 2: Application Process<br>
+                
+                The aspiring candidate registers online through Apply Now<br>
+                
+                General Instruction for online admission Process<br>
+                Personal Profile – The name of the candidate and his/her parents must be the same as mentioned on their class 10th certificate. (No prefix should be used)<br>
+                Contact details should be accurate.
+                Educational Profile – Marks obtained in qualifying examination & last attended school.<br>
+                The marks of the qualifying national entrance tests / Maharashtra CET/ DYP ATU CET along with documents should be uploaded within 15 days of the results being announced.<br>
+                Upload Documents – Candidates must upload scanned copies (Size maximum 2 MB) of the required documents in the DYP-ATU admission portal.<br>
+                Payment – payment of application fees – Rs 1000/-through online mode only. (Net banking/Debit or Credit Card/UPI)<br>
+                Candidates who fail to do so will not be considered for the admissions.
+                 </p>
+
+    </section>
+   <!-- Footer -->
+   <footer>
+    <hr>
+    <section class="Footer">
+
+        <!-- <h4>Facebook</h4>
+    <h4>Instgram</h4>
+    <h4>Twitter</h4> -->
+        <div class="social-grp">
+            <span>Instagram</span>
+            <span>Twitter</span>
+            <span>Facebook</span>
+            <span>YouTube</span>
+        </div>
+    </section>
+</footer>
+
+
+
+    <!-----   -------javascript for toggle  menu --------   ----->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+
+</html>

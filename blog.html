@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/DYPATU-Logo.svg"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+    </section>
+    <!-- adout us content -->
+
+    <section class="top-about-us">
+        <div>
+            <h1>Our Certificate & Online Programms For 2023 </h1>
+        </div>
+    </section>
+    <section class="About-us">
+        <div class="row">
+            <div class="About-col about-col-img">
+                <img src="images/certificate.jpg">
+            </div>
+            <div class="About-col">
+                <div class="center">
+                    <table border="1">
+                        <tr>
+                            <td colspan="2">POST GRADUATE</td>
+                        </tr>
+                        <tr>
+                            <td>M.Tech.CSE</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>M.Tech.CSE(AI & ML)</td>
+                            <td>100</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Master of Computer Application</td>
+                            <td>100</td>
+                        
+                        </tr>
+                        <tr>
+                            <td>M.Tech Food Technology</td>
+                            <td>100</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>M.Tech.CSE(Data Science)</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>M.Tech.Food Technology</td>
+                            <td>100</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+
+    </section>
+   <!-- Footer -->
+   <footer>
+    <hr>
+    <section class="Footer">
+
+        <!-- <h4>Facebook</h4>
+    <h4>Instgram</h4>
+    <h4>Twitter</h4> -->
+        <div class="social-grp">
+            <span>Instagram</span>
+            <span>Twitter</span>
+            <span>Facebook</span>
+            <span>YouTube</span>
+        </div>
+    </section>
+</footer>
+
+
+
+    <!-----   -------javascript for toggle  menu --------   ----->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+
+</html>
